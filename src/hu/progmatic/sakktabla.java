@@ -1,5 +1,7 @@
 package hu.progmatic;
 
+import java.util.Arrays;
+
 public class sakktabla {
     public static void main(String[] args) {
         String[][] table = new String[10][10];

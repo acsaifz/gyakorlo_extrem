@@ -16,22 +16,14 @@ public class sakktabla {
                 if( i < 2 && j < 2){
                     table[i][j] = " ";
                 } else if(i >=2 && j >= 2) {
-                    if((i+j)%2 == 0){
-                        table[i][j] = Integer.toString(0);
-                    } else {
-                        table[i][j] = Integer.toString(1);
-                    }
+                    table[i][j] = Integer.toString((i+j)%2);
                 }
             }
         }
 
         for (int i = 0; i < table.length; i++){
             for (int j = 0; j < table.length; j++){
-                if (i == 1 && j > 0 && j < table.length-1) {
-                    System.out.print(table[i][j] + "-");
-                } else {
-                    System.out.print(table[i][j] + " ");
-                }
+                System.out.print(table[i][j] + (i == 1 && j > 0 && j < table.length-1 ? "-" : " "));
             }
             System.out.println();
         }

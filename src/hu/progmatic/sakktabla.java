@@ -22,9 +22,7 @@ public class sakktabla {
                         table[i][j] = Integer.toString(1);
                     }
                 }
-
             }
-
         }
 
         for (int i = 0; i < table.length; i++){

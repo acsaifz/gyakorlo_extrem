@@ -1,7 +1,6 @@
 package hu.progmatic;
 
 import java.math.BigInteger;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class nagyon_nagy_szamok_osszege {
